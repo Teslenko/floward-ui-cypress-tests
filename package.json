@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "cypress": "^11.0.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-recurse": "^1.20.0",
+    "cypress-xpath": "^2.0.1",
+    "prettier": "2.7.1",
+    "cypress-grep": "^2.13.1"
+  },
+  "scripts": {
+    "lint-staged": "lint-staged",
+    "prettier": "prettier --write \"src/**/*.{js,jsx,ts,tsx,scss,less}\"",
+    "eslint": "eslint --ext .js,jsx src",
+    "stylelint": "stylelint \"src/**/*.{scss,less}\"",
+    "cy:run": "cypress run"
+  },
+  "dependencies": {
+    "cypress-real-events": "^1.7.4",
+    "@js-joda/core": "^4.3.1",
+    "js-joda": "^1.11.0"
+  }
+}
