@@ -6,6 +6,7 @@ export class CalculationsPage {
   constructor() {
     this._selectors = {
       governmentBonds: "[title='Державні облігації']",
+      indexObligationSelector: ".dataRow.odd > td:nth-child(2) span",
     };
 
     this._data = {
