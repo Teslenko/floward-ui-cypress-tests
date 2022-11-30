@@ -18,6 +18,9 @@ describe("Calculations", () => {
       cy.log(nameText);
       calculationsPage.isFactorial(nameText);
       calculationsPage.isFactorial("24");
+      calculationsPage.isFactorial("120");
+      calculationsPage.isFactorial("12");
+      calculationsPage.isFactorial("720");
     });
   });
 });
